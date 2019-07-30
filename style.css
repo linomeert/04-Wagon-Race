@@ -1,0 +1,53 @@
+/* Your board style here */
+
+.racer_table td {
+  height: 150px;
+  width:5%;
+}
+
+.container {
+  width:80%;
+  margin:40px auto;
+}
+body {
+  text-align:center;
+}
+.racer_table tr:first-child {
+
+
+}
+.racer_table  {
+  width:100%;
+  margin:30px 0px;
+  border:3px solid #505050;;
+  background:url('images/road.jpg');
+  background-size:contain;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  transition: all 0.3s ease-in-out;
+
+}
+#player1 td.active {
+  background-image: url("images/player_1.png");
+
+
+}
+#player2 td.active {
+  background-image: url("images/player_2.png");
+
+}
+
+td.finish {
+  border-right:1px solid black;
+}
+
+.hide {
+  display:none;
+}
+
+
+
+
